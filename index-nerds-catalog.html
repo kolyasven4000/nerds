@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>nerds</title>
+<link rel="stylesheet" href="css/style-nerds.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+<div class="container ">
+<div class="header-top clearfix">
+<div class="main-logo"><img width="139px" height="56px" src="images/main-logo.png" alt="main-logo">
+</div>
+<nav class="main-navigation">
+<ul>
+<li ><a href="index.html">студия</a></li>
+<li><a href="#">клиенты</a></li>
+<li class="active"><a href="#">магазин</a></li>
+<li><a href="#">контакты</a></li>
+<li><a href="#"><i class="icon-basket"> </i>корзина</a></li>
+</ul>
+</nav>
+</div>
+<h1 class="catalog-title">Добро пожаловать в магазин<br> готовых макетов
+</h1>
+</div>
+</header>
+<div class="container clearfix">
+<div class="catalog-features-row">
+<div class="column-left">
+<form class="catalog-form" method="post" action="/echo">
+<div class="range-filter">
+<h2> Стоимость :</h2>
+<div class="range-controls">
+<div class="range-line"><div class="range-line-active"></div>
+</div>
+<div class="toggle min-toggle"></div>
+<div class="toggle max-toggle"></div>
+</div>
+<!-- классы у label'ов  а не input'ов, чтобы прижать инпуты к левому\правому краю-->
+<div class="price-controls">
+<label  class="min-price">ОТ<input type="text" value="0"></label>
+<label class="max-price">ДО<input  type="text" value="15000"></label>
+</div>
+</div>
+<div class="form-checkbox">
+<h2> Сетка </h2>
+<input type="radio" id="item1" name="check"> <label for="item1">Адаптивная</label><br>
+<input type="radio" id="item2" name="check" checked> <label for="item2">Фиксированная</label><br>
+<input type="radio" id="item3" name="check" > <label for="item3">Резиновая</label>
+<h2> Особенности </h2>
+<input type="checkbox" id="check1" name="option1" > <label for="check1">Блок преимуществ</label><br>
+<input type="checkbox" id="check2" name="option2" checked> <label for="check2">Новости</label><br>
+<input type="checkbox" id="check3" name="option3" > <label for="check3">Галерея</label><br>
+<input type="checkbox" id="check4" name="option4" checked> <label for="check4">Корзина</label><br>
+<input type="checkbox" id="check5" name="option5" > <label for="check5">Слайдер</label>
+</div>
+</form>
+</div>
+
+<div class="column-right">
+<ul class="catalog-sort">
+<li><a href="/" >Сортировать:</a></li>
+<li> <a href="/">по цене</a></li>
+<li><a href="/">по типу</a></li>
+<li> <a href="/">по функционалу</a></li>
+<li> <a href="/" class="triangle icon-down-dir" ></a><a href="/" class="triangle icon-up-dir" ></a></li>
+
+</ul>
+<div class="catalog-items clearfix">
+<!--div class="row" решает проблему с переносом крайнего справа слайда-->
+<div class="catalog-items-unit">
+<div class="unit-header">
+<i class="circle"></i>
+<i class="circle"></i>
+<i class="circle"></i>
+</div>
+<div class="unit-img"><img src="images/catalog-item.png"  width="240px" height="240px" alt="catalog-item">
+<div class="hidden-price">
+<div class="item-title"> sunset</div> 
+<div class="item-description"> Интернет-магазин с личным кабинетом </div>
+<a href="/" class="btn"> 10 000 Р.</a>
+</div>
+</div>
+</div>
+<div class="catalog-items-unit">
+<div class="unit-header">
+<i class="circle"></i>
+<i class="circle"></i>
+<i class="circle"></i>
+</div>
+<div class="unit-img"> <img src="images/catalog-item.png"  width="240px" height="240px" alt="catalog-item">
+<div class="hidden-price">
+<div class="item-title"> sunset</div> 
+<div class="item-description"> Интернет-магазин с личным кабинетом </div>
+<a href="/" class="btn"> 10 000 Р.</a>
+</div>
+</div>
+</div>
+<div class="catalog-items-unit">
+<div class="unit-header">
+<i class="circle"></i>
+<i class="circle"></i>
+<i class="circle"></i>
+</div>
+<div class="unit-img"> <img src="images/catalog-item.png" width="240px" height="240px" alt="catalog-item">
+<div class="hidden-price">
+<div class="item-title"> sunset</div> 
+<div class="item-description"> Интернет-магазин с личным кабинетом </div>
+<a href="/" class="btn"> 10 000 Р.</a>
+</div>
+</div>
+</div>
+<div class="catalog-items-unit">
+<div class="unit-header">
+<i class="circle"></i>
+<i class="circle"></i>
+<i class="circle"></i>
+</div>
+<div class="unit-img"><img src="images/catalog-item.png"  width="240px" height="240px" alt="catalog-item">
+<div class="hidden-price">
+<div class="item-title"> sunset</div> 
+<div class="item-description"> Интернет-магазин с личным кабинетом </div>
+<a href="/" class="btn"> 10 000 Р.</a>
+</div>
+</div>
+</div>
+<div class="catalog-items-unit">
+<div class="unit-header">
+<i class="circle"></i>
+<i class="circle"></i>
+<i class="circle"></i>
+</div>
+<div class="unit-img"><img src="images/catalog-item.png"  width="240px" height="240px" alt="catalog-item">
+<div class="hidden-price">
+<div class="item-title"> sunset</div> 
+<div class="item-description"> Интернет-магазин с личным кабинетом </div>
+<a href="/" class="btn"> 10 000 Р.</a>
+</div>
+</div>
+</div>
+<div class="catalog-items-unit">
+<div class="unit-header">
+<i class="circle"></i>
+<i class="circle"></i>
+<i class="circle"></i>
+</div>
+<div class="unit-img"><img src="images/catalog-item.png"  width="240px" height="240px" alt="catalog-item">
+<div class="hidden-price">
+<div class="item-title"> sunset</div> 
+<div class="item-description"> Интернет-магазин с личным кабинетом </div>
+<a href="/" class="btn"> 10 000 Р.</a>
+</div>
+</div>
+</div>
+
+</div>
+<div class="pagination">
+<ul>
+<li class="active"><a href="#">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">следующая</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="main-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.101064157517!2d37.662648516306945!3d55.79148298056377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53591b4dad7af%3A0xbb6d5bb7da784a86!2z0YPQuy4g0KHQvtC60L7Qu9GM0L3QuNGH0LXRgdC60LjQuSDQktCw0LssINCc0L7RgdC60LLQsCwgMTA3MTEz!5e0!3m2!1sru!2sru!4v1448798000298" width="100%" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<div class="contact">
+<h2>NЁRDS <span>design studio</span></h2>
+<p>350000, Краснодар, <br> ул.Полосатого,100 </p>
+<p>тел +7(945)275-75-75</p>
+<a href="/" class="btn open-form">напишите нам</a>
+</div>
+</div>
+<footer class="main-footer">
+<div class="container clearfix">
+<div class="icon-social">
+<a href="/" class="social-btn social-btn-vk"></a>
+<a href="/" class="social-btn social-btn-fsb"></a>
+<a href="/" class="social-btn social-btn-inst"></a>
+</div>
+<div class="footer-slogan">
+<div class="title">Давайте дружить, это здорово!</div>
+<p>Скидка 10% для друзей из социальных сетей.</p>
+</div>
+</div>
+</footer>
+<div class="modal-content">
+<form class="message-form" method="post" action="/echo">
+<div class="inputs clearfix">
+<div class="left-input">
+<label for="text1">Ваше имя:</label><br>
+<input id="text1" type="text" name="initial" placeholder="представтесь, пожалуйста">
+</div>
+<div class="right-input">
+<label for="text2">Ваш e-mail:</label><br>
+<input id="text2" type="e-mail" name="e-mail" placeholder="для отправки ответа">
+</div>
+</div>
+
+<label for="textarea">Текст письма:</label>
+<textarea name="user-text" placeholder="в свободной форме"></textarea>
+<button class="btn" name="send" type="submit">отправить</button>
+<button class="btn" name="cancel" type="button">отмена</button>
+</form>
+<div class="form-close"> </div>
+</div>
+<script>
+var formShow = document.querySelector(".open-form");
+var popup = document.querySelector(".modal-content");
+var formClose= popup.querySelector(".form-close"); 
+formShow.addEventListener("click", function(event){
+event.preventDefault();
+popup.classList.add("modal-content-show");
+});
+formClose.addEventListener("click", function(event){
+popup.classList.remove("modal-content-show");
+});
+<!-- закрыть на esc -->
+window.addEventListener("keydown", function(event){
+if(event.keyCode === 27){
+if (popup.classList.contains("modal-content-show")){
+popup.classList.remove("modal-content-show");
+}
+}
+});
+
+</script>
+</body>
+</html>
